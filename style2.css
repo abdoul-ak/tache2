@@ -1,0 +1,189 @@
+a{
+    position: relative;
+    text-decoration: none;
+    
+
+}
+
+.header , .footer{
+    width: 100%;
+    height: 100px;
+    border: 1px solid;
+    background-color: white;
+    
+}
+
+.numb2{
+    float: right;
+    padding-top: 40px;
+    padding-right: 80px;
+    word-spacing: 20px;
+    font-size: 20px;
+
+}
+
+#propos{
+    word-spacing: 0px;
+}
+
+.numb1{
+    padding-top: 25px;
+    padding-left: 80px;
+}
+
+ #tarifs , #typebutton{
+    text-align: center;
+}
+
+#Apropos{
+    margin-left: 400px;
+    margin-top: 0px;
+    border-right: 1px solid ;
+    border-bottom: 1px solid;
+    padding-bottom: 50px;
+    width: 700px;
+}
+
+
+#Apropos h1{
+    font-size: 70px;
+    color: #a5b4fc;
+    margin-left: 100px;
+   
+}
+
+#Apropos li{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Apropos p{
+    font-size: 20px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Apropos h2{
+    margin-left: 250px;
+}
+
+#typeboutton{
+    border-radius: 100px;
+    height: 70px;
+    width: 220px;
+    background-color: #acaeed  ;
+    color: white;
+    font-size: 20px;
+    margin: 10% ;
+    margin-left: 600px;
+
+}
+
+#typeboutton:hover{
+    background-color: #8e86b5 ;
+}
+
+
+td{
+    border: 1px solid;
+    width: 700px;
+    text-align: center;
+    
+}
+
+table{
+    border-collapse: collapse;
+    position: relative;
+    margin: 50px;
+    color: white;
+    
+    
+}
+
+#deuxieme , #troisieme{
+    height: 200px;
+    
+}
+
+#premier{
+    height: 60px;
+    
+}
+
+body{
+    background-color: #1f2039;
+    color: white;
+    
+}
+
+.cright{
+    float: right;
+    padding-right: 50px;
+   padding-top: 25px;
+    letter-spacing: 30px;
+}
+
+.cleft{
+    padding-left: 50px;
+    padding-top: 25px ;
+}
+
+
+@media screen  and (max-width: 681px){
+
+    .header{
+        height: 160px;
+    }
+
+    .numb1{
+        text-align: center;
+        margin-top: 70px;
+        margin-right: 30px;
+    }
+
+    .numb2{
+        margin-top: 10px;
+    }
+
+    #Apropos{
+       float: right;
+       height: 600px;
+       width: 300px;
+       margin-right: 30px;
+    }
+
+    #Apropos h1{
+        font-size: 40px;
+        margin-left: 5px;
+    }
+
+    #Apropos h2{
+        margin-left: 80px;
+    }
+
+    .BUTTON a{
+        float: right;
+        margin-right: 70px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 681px) and (max-width: 900px){
+    
+    #Apropos{
+        float: right;
+        height: 600px;
+        width: 500px;
+        margin-right: 30px;
+        margin-top: 20px;
+     }
+
+     .BUTTON a{
+        float: right;
+        margin-right: 170px;
+    }
+
+
+
+}
